@@ -104,6 +104,11 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
+" Open file explorer (netrw)
+nnoremap <C-e> :Ex<CR>
+inoremap <C-e> <Esc><C-e>
+vnoremap <C-e> <Esc><C-e>
+nnoremap <leader>e :Ex<CR>
 
 " Textmate holdouts
 
