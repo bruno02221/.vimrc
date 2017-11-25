@@ -25,6 +25,8 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'tpope/vim-fugitive'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 
 cal vundle#end()
 
