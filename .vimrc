@@ -124,6 +124,7 @@ nnoremap <leader>e :NERDTree<CR>
 let vim_markdown_preview_hotkey='<C-m>'
 
 " YouCompleteMe
+let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
 ":Ex<CR> Textmate holdouts
