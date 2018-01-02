@@ -24,6 +24,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'plasticboy/vim-markdown'
@@ -136,6 +137,9 @@ let vim_markdown_preview_hotkey='<C-m>'
 " YouCompleteMe
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+
+" Jsx
+let g:jsx_ext_required=0
 
 ":Ex<CR> Textmate holdouts
 
