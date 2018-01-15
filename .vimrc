@@ -44,7 +44,7 @@ syntax on
 filetype plugin indent on
 
 " Pick a leader key
-let mapleader = ","
+let mapleader = "-"
 
 " Security
 set modelines=0
